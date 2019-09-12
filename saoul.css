@@ -1,0 +1,222 @@
+/* MODE ORDINATEUR */
+@media(min-width: 750px) {
+    #button-record {
+        position: absolute;
+        bottom: 15.3em;
+        right: 0.29em;
+        height: 100px;
+        width: 260px;
+        background-color: #224478;
+        color: aliceblue;
+        border-radius: 10%;
+    }
+
+    #select-image-front {
+        position: absolute;
+        top: 0.3em;
+        right: 0em;
+        height: 100px;
+        width: 653px;
+        background-color: #224478;
+        color: aliceblue;
+        border-radius: 10%;
+
+    }
+
+    #select-image-back {
+        position: absolute;
+        top: 7em;
+        right: 0em;
+        height: 100px;
+        width: 653px;
+        background-color: #224478;
+        color: aliceblue;
+        border-radius: 10%;
+    }
+
+    #select-option {
+        position: absolute;
+        top: 13.7em;
+        right: 0em;
+        height: 100px;
+        width: 653px;
+        background-color: #224478;
+        color: aliceblue;
+        border-radius: 10%;
+    }
+
+    #range-spectre {
+        -webkit-appearance: none;
+        position: absolute;
+        top: 22.7em;
+        right: 0em;
+        height: 20px;
+        width: 653px;
+        border-radius: 5px;
+        background: #224478;
+        outline: none;
+        opacity: 1;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+
+
+    }
+
+    #range-spectre::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 23px;
+        height: 24px;
+        border: 0;
+        background: aliceblue;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    #range-density {
+        -webkit-appearance: none;
+        position: absolute;
+        top: 28.7em;
+        right: 0em;
+        height: 20px;
+        width: 653px;
+        border-radius: 5px;
+        background: #224478;
+        outline: none;
+        opacity: 1;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    #range-density::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 23px;
+        height: 24px;
+        border: 0;
+        background: aliceblue;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    #main-canvas {
+        background-color: #000;
+    }
+}
+
+
+/* MODE TELEPHONE */
+@media(max-width: 750px) {
+    #button-record {
+
+        position: absolute;
+        top: initial;
+        bottom: 26.3em;
+        right: 0.29em;
+        height: 50px;
+        width: 159px;
+        background-color: #224478;
+        color: aliceblue;
+
+    }
+
+    #select-image-front {
+        position: absolute;
+        top: initial;
+        bottom: 30.3em;
+        top: initial;
+        left: 0.29em;
+        height: 50px;
+        width: 160px;
+        background-color: #224478;
+        color: aliceblue;
+
+
+    }
+
+    #select-image-back {
+        position: absolute;
+        top: initial;
+        bottom: 30.3em;
+        left: 10.6em;
+        height: 50px;
+        width: 160px;
+        background-color: #224478;
+        color: aliceblue;
+    }
+
+    #select-option {
+        position: absolute;
+        top: initial;
+        bottom: 30.3em;
+        right: 0.29em;
+        height: 50px;
+        width: 160px;
+        background-color: #224478;
+        color: aliceblue;
+    }
+
+    #range-spectre {
+        -webkit-appearance: none;
+        position: absolute;
+        bottom: 27.3em;
+        left: 0.29em;
+        height: 10px;
+        border-radius: 5px;
+        background: #224478;
+        outline: none;
+        opacity: 1;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+
+
+    }
+
+    #range-spectre::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 23px;
+        height: 24px;
+        border: 0;
+        background: white;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+
+    #range-density {
+        -webkit-appearance: none;
+        position: absolute;
+        top: initial;
+        bottom: 27.3em;
+        left: 10.6em;
+        height: 10px;
+        border-radius: 5px;
+        background: #224478;
+        outline: none;
+        opacity: 1;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    #range-density::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 23px;
+        height: 24px;
+        border: 0;
+        background: white;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+
+    #haut {
+        background-color: #000;
+        height: 500px;
+
+    }
+
+    #main-canvas {
+        background-color: #000;
+    }
+}
